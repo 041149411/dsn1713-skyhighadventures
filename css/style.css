@@ -1,0 +1,29 @@
+/* ADDING CUSTOM STYLING FOR ANNOUCMENT BAR*/
+
+.alert {
+    background-color: #79A0EC;
+    color: white;
+
+}
+
+/* ADDING CUSTOM STYLING FOR BUTTON*/
+
+.btn {
+    background-color: #79A0EC;
+    --bs-btn-hover-bg: #79A0EC;
+    margin-left: 10px;
+}
+
+
+/* ADDING CUSTOM STYLING TO INSERT HEADER IMAGE*/
+
+#hero {
+    background-image: url(../images/moutain-image.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero .d-flex {
+    height: 70vh;
+}
